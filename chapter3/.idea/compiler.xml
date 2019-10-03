@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chapter1" />
+        <module name="chapter3" />
         <module name="eureka-server" />
-        <module name="service-feign" />
-        <module name="service-hi" />
         <module name="service-ribbon" />
+        <module name="service-hi" />
+        <module name="service-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chapter1" target="1.5" />
+      <module name="chapter3" target="1.5" />
       <module name="eureka-server" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
